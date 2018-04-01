@@ -1,27 +1,48 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  color: #0e1111;
+
+}
+
+h1 {
   
+  font-size: 3rem;
+}
+
+h6 {
+  font-size: 2rem;
+  line-spacing: 0.2em;
 }
 
 .layout {
   display: grid;
-  grid-template-columns: repeat (5, 1fr);
-  grid-template-rows: repeat (3, 1fr);
-  align-items: stretch;
   height: 100vh;
   width: 100%;
+  /*grid-template-columns: repeat (5, 1fr);
+  grid-template-rows: repeat (3, 1fr);*/
+  grid-template-columns: 350px;
+  grid-template-rows: 33.33%;
+  align-items: stretch;
 }
 
 section {
   display: block;
 }
 
-img {
-  display: flex;
+article {
+  text-align: center;
+  fill-height: true;
+  fill-width: true;
 }
 
-
-.box {
-  border: solid red;
+img {
+  width: 50px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -29,6 +50,7 @@ img {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
   background-color: #5B391E;
+
 }
 
 .b {
@@ -40,7 +62,9 @@ img {
 .c {
   grid-column: 4 / 6;
   grid-row: 1 / 4;
-  /*background-image: url(static-comp1/orangutan.jpg);*/
+  background-image: url("Images/orangutan.mom.baby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .d {
@@ -78,3 +102,14 @@ img {
   grid-row: 3 / 4;
   background-color: #C3EEE7;
 }
+
+@media screen and (max-width: 980px) {
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 450px) {
