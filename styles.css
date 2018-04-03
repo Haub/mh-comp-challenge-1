@@ -48,8 +48,9 @@ article img {
   display: grid;
   height: 100vh;
   width: 100%;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 33.3% 33.3% 33.3%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /*grid-template-rows: 33.3% 33.3% 33.3%;*/
 }
 
 .borneo {
@@ -74,7 +75,7 @@ article img {
 }
 
 div .left{
-  margin: 72% 71% 0 0;
+  margin: 60% 77% 0 0;
 }
 
 .getting-there {
@@ -113,13 +114,30 @@ div .left{
   background-color: #c6c386;
 }
 
-@media screen and (max-width: 980px) {
 
+@media screen and (max-width: 1330px) {
+  div .left{
+    margin: 65% 75% 0 0;
 }
 
 
-@media screen and (max-width: 650px) {
-
+@media screen and (max-width: 1205px) {
+  div .left{
+    margin: 70% 75% 0 0;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1045px) {
+  div .left{
+    margin: 75% 60% 0 0;
+}
+
+
+@media screen and (max-width: 900px) {
+  div .left{
+    margin: 85% 60% 0 0;
+}
+
+@media screen and (max-width: 747px) {
+     div .left{
+    margin: 98% 60% 0 0;
+}
