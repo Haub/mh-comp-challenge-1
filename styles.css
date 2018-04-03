@@ -1,0 +1,125 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  color: #0e1111;
+  font: Roboto condensed, sans-serif;
+}
+
+article h1 {
+  padding-left: 8%;
+  font-size: 3.5rem;
+  height: 4rem;
+  font-weight: 600;
+}
+
+article p {
+  margin: 0rem .2rem .1rem 0;
+  padding-left: 8%;
+  font-size: 1.1rem;
+  list-style-type: inside circle;
+}
+
+article h6 {
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+}
+
+article button {
+  margin: 4% 0 0% 8%;
+  width: 30%;
+  height: 20%;
+  border: 1px black solid;
+  background-color: #c3eee7;
+}
+
+article img {
+  width: 50px;
+  height: 50px;
+  margin-top: 25%;
+  text-align: center;
+}
+
+.layout {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+.borneo {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  background-color: #c3eee7;
+  text-align: left;
+}
+
+.visa {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  background-color: #87c6c3;
+}
+
+.photo {
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 3;
+  background-image: url("Images/orangutan.mom.baby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div .left{
+  margin: 72% 71% 0 0;
+}
+
+.getting-there {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: #66bbae;
+}
+
+.beaches {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #7b604a;
+}
+
+.trekking {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3; 
+  background-color: #c3eee7;
+}
+
+.snorkeling {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-color: #c6c386;
+}
+
+.wildlife {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: #66bbae;
+}
+
+.getting-around {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-color: #c6c386;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 450px) {
