@@ -139,5 +139,17 @@ div .left{
 
 @media screen and (max-width: 747px) {
      div .left{
-    margin: 98% 60% 0 0;
+    margin: 98% 55% 0 0;
 }
+
+@media screen and (max-width: 600px) {
+     div .left{
+    margin: 100% 40% 0 0;
+}
+
+@media screen and (max-width: 500px) {
+     div .left{
+    margin: 100% 30% 0 0;
+}
+
+
